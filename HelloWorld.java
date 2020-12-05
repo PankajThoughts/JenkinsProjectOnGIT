@@ -6,7 +6,11 @@ public class HelloWorld {
 		
 		for(int i=1;i<=10;i++) {
 			
+			System.out.println("Welcome to Git");
+			
 			System.out.println("Hello World"+"["+i+"]");
+			
+			System.out.println("From Jenkins");
 		}
 
 	}
