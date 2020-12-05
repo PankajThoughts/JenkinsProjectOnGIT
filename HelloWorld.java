@@ -8,10 +8,10 @@ public class HelloWorld {
 		HelloWorld object = new HelloWorld();
 		object.welcome();
 		
-		for(int i=1;i<=10;i++) {
+		for(int i=0;i<10;i++) {
 			
-			int res=j*i;
-			System.out.println(j+"*"+i+"="+res);
+			int res=j*(i+1);
+			System.out.println(j+"*"+(i+1)+"="+res);
 			
 		}
 		
